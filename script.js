@@ -11,7 +11,7 @@ form.addEventListener('submit',function(e){
     let age=document.getElementById("age").value.trim();
 
 	if(name=="" || age==""){
-		alert("Please enter valid details.");
+		alert("Please enter valid details");
 
 		return;
 	}
